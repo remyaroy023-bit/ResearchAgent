@@ -13,7 +13,7 @@ embeddings = OllamaEmbeddings(
         model="nomic-embed-text"
     )
 model = init_chat_model(
-    "openai/gpt-oss-20b:free",
+    "openrouter/free",
     model_provider="openrouter",
 )
 vectorstore = PineconeVectorStore(
